@@ -1,16 +1,16 @@
 PODS:
-  - ZZFlutterExample (0.1.0)
+  - FlutterPod (0.1.0)
 
 DEPENDENCIES:
-  - ZZFlutterExample (from `../`)
+  - FlutterPod (from `../FlutterPod`)
 
 EXTERNAL SOURCES:
-  ZZFlutterExample:
-    :path: "../"
+  FlutterPod:
+    :path: "../FlutterPod"
 
 SPEC CHECKSUMS:
-  ZZFlutterExample: 21fb015dd071628c4b01426438ec34279fa439fc
+  FlutterPod: 11c473092a206df2f1afb7f3e444b89a60079d7a
 
-PODFILE CHECKSUM: 595de954a03c4ec95714ac68df4d0c2d33484695
+PODFILE CHECKSUM: 2571289e7d5cd4ad50c241b58537cd650fb58233
 
 COCOAPODS: 1.8.4

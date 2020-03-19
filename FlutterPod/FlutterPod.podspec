@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint ZZFlutterExample.podspec' to ensure this is a
+# Be sure to run `pod lib lint FlutterPod.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ZZFlutterExample'
+  s.name             = 'FlutterPod'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZZFlutterExample.'
+  s.summary          = 'A short description of FlutterPod.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,20 +21,20 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/ZackXXC/ZZFlutterExample'
+  s.homepage         = 'https://github.com/ZackXXC/FlutterPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ZackXXC' => 'zack@littlelights.ai' }
-  s.source           = { :git => 'https://github.com/ZackXXC/ZZFlutterExample.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ZackXXC/FlutterPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ZZFlutterExample/Classes/**/*'
-  s.vendored_frameworks = 'Flutter/zzexample/ios/Flutter/*.framework'
+  s.source_files = 'FlutterPod/Classes/**/*'
+  s.vendored_frameworks = 'ios/Flutter/*.framework'
   
   # s.resource_bundles = {
-  #   'ZZFlutterExample' => ['ZZFlutterExample/Assets/*.png']
+  #   'FlutterPod' => ['FlutterPod/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

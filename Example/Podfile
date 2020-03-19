@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'ZZFlutterExample_Example' do
-  pod 'ZZFlutterExample', :path => '../'
+  pod 'FlutterPod', :path => '../FlutterPod'
 
   target 'ZZFlutterExample_Tests' do
     inherit! :search_paths
