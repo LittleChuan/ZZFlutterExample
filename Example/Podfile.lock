@@ -1,0 +1,16 @@
+PODS:
+  - ZZFlutterExample (0.1.0)
+
+DEPENDENCIES:
+  - ZZFlutterExample (from `../`)
+
+EXTERNAL SOURCES:
+  ZZFlutterExample:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZZFlutterExample: 21fb015dd071628c4b01426438ec34279fa439fc
+
+PODFILE CHECKSUM: 595de954a03c4ec95714ac68df4d0c2d33484695
+
+COCOAPODS: 1.8.4

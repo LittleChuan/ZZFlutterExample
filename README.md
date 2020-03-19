@@ -1,29 +1,15 @@
 # ZZFlutterExample
 
-[![CI Status](https://img.shields.io/travis/ZackXXC/ZZFlutterExample.svg?style=flat)](https://travis-ci.org/ZackXXC/ZZFlutterExample)
-[![Version](https://img.shields.io/cocoapods/v/ZZFlutterExample.svg?style=flat)](https://cocoapods.org/pods/ZZFlutterExample)
-[![License](https://img.shields.io/cocoapods/l/ZZFlutterExample.svg?style=flat)](https://cocoapods.org/pods/ZZFlutterExample)
-[![Platform](https://img.shields.io/cocoapods/p/ZZFlutterExample.svg?style=flat)](https://cocoapods.org/pods/ZZFlutterExample)
+## 介绍
 
-## Example
+这个项目介绍了如果将Flutter作为一个Pod库应用至APP工程中，同时也提供了一些混合开发的思路。
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## 主要解决问题
 
-## Requirements
+1. 页面调用 [ ]
+2. 数据传递 [ ]
+3. 网络请求与持久化 [ ]
 
-## Installation
+## 解决方案
 
-ZZFlutterExample is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'ZZFlutterExample'
-```
-
-## Author
-
-ZackXXC, zack@littlelights.ai
-
-## License
-
-ZZFlutterExample is available under the MIT license. See the LICENSE file for more info.
+### 1. 页面调用

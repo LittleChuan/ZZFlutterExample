@@ -313,10 +313,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ZZFlutterExample_Example/Pods-ZZFlutterExample_Example-frameworks.sh",
+				"${PODS_ROOT}/../../Flutter/zzexample/ios/Flutter/App.framework",
+				"${PODS_ROOT}/../../Flutter/zzexample/ios/Flutter/Flutter.framework",
 				"${BUILT_PRODUCTS_DIR}/ZZFlutterExample/ZZFlutterExample.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/App.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZZFlutterExample.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

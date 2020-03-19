@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ZZFlutterExample/Classes/**/*'
+  s.vendored_frameworks = 'Flutter/zzexample/ios/Flutter/*.framework'
   
   # s.resource_bundles = {
   #   'ZZFlutterExample' => ['ZZFlutterExample/Assets/*.png']
